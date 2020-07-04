@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully byte inserted]]>
+    </line>
+    <line>
+      <![CDATA[Successfully byte inserted]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-07-04T12:57:35Z" name="Suite" finished-at="2020-07-04T12:57:39Z" duration-ms="4092">
+    <groups>
+    </groups>
+    <test started-at="2020-07-04T12:57:35Z" name="Test" finished-at="2020-07-04T12:57:39Z" duration-ms="4092">
+      <class name="com.airtel.solution.testClass.MarvelDataTest">
+        <test-method is-config="true" signature="executeApi()[pri:0, instance:com.airtel.solution.testClass.MarvelDataTest@50d0686]" started-at="2020-07-04T18:27:35Z" name="executeApi" finished-at="2020-07-04T18:27:38Z" duration-ms="2582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeApi -->
+        <test-method signature="TC001_GetAllCharactersWithDiscription()[pri:0, instance:com.airtel.solution.testClass.MarvelDataTest@50d0686]" started-at="2020-07-04T18:27:38Z" name="TC001_GetAllCharactersWithDiscription" description="Get the list of all the characters which have description and get the list of series too" finished-at="2020-07-04T18:27:38Z" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_GetAllCharactersWithDiscription -->
+        <test-method is-config="true" signature="writeToFile()[pri:0, instance:com.airtel.solution.testClass.MarvelDataTest@50d0686]" started-at="2020-07-04T18:27:38Z" name="writeToFile" finished-at="2020-07-04T18:27:38Z" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully byte inserted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- writeToFile -->
+        <test-method is-config="true" signature="executeApi()[pri:0, instance:com.airtel.solution.testClass.MarvelDataTest@50d0686]" started-at="2020-07-04T18:27:38Z" name="executeApi" finished-at="2020-07-04T18:27:39Z" duration-ms="1227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeApi -->
+        <test-method signature="TC002_GetAllStoriesWithNoDiscription()[pri:0, instance:com.airtel.solution.testClass.MarvelDataTest@50d0686]" started-at="2020-07-04T18:27:39Z" name="TC002_GetAllStoriesWithNoDiscription" description="Get the list of stories which does not involve a character with description" finished-at="2020-07-04T18:27:39Z" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_GetAllStoriesWithNoDiscription -->
+        <test-method is-config="true" signature="writeToFile()[pri:0, instance:com.airtel.solution.testClass.MarvelDataTest@50d0686]" started-at="2020-07-04T18:27:39Z" name="writeToFile" finished-at="2020-07-04T18:27:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully byte inserted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- writeToFile -->
+      </class> <!-- com.airtel.solution.testClass.MarvelDataTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
